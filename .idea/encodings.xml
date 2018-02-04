@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/www/css/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/audio/AudioCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/audio/AudioDetailsCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/common/MenuCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/geo/GeoCodingCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/geo/GeoCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/geo/GeoDetailsCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/photo/PhotoCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/photo/PhotoDetailsCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/textto/TextToCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/user/AddAssignCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/user/AssignCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/user/AssignDetailsCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/user/CalendarCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/user/LoginCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/user/PaymentCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/user/ProfileCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/user/RenewCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/user/SignUpCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/video/VideoCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers/video/VideoDetailsCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/services.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/lib/ngvideo/components/Service.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/addAssign.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/assignList.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/audiolist.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/calendar.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/dash.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/geoCoding.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/geoDetails.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/geoList.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/photoDetails.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/photolist.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/renew.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/videoDetails.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/videoList.html" charset="UTF-8" />
+  </component>
+</project>

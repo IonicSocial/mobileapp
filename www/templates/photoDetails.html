@@ -1,0 +1,21 @@
+<ion-view title="Photo Details" id="page7" class=" " >
+    <ion-content padding="true" class="has-header">
+        <div   >
+          <img ng-src="{{imgFullPath}}" width="100%"  />
+        </div>
+        <div class="spacer" style="width: 283px; height: 27px;"></div>
+        <p id="photoDetails-markdown2" style="color:#000000;" class=" ">
+
+
+
+           <textarea placeholder="Enter photo description" rows="8" cols="10" id="textTo" ng-model="mediaDetails.description" style="width:100%"  >
+
+        </textarea>
+
+
+        </p>
+        <button id="photoDetails-button6" class=" button button-positive  button-block " ng-click="savePhotoDetails(mediaDetails);">Save</button>
+        <button id="photoDetails-button6" class=" button button-positive  button-block " ng-click="deletePhoto(mediaDetails);">Delete</button>
+        <button id="photoDetails-button6" class=" button button-positive  button-block " ng-click="goBack();">Cancel</button>
+    </ion-content>
+</ion-view>

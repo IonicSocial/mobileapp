@@ -1,0 +1,21 @@
+<ion-view title="Login" id="page4" class=" " hide-nav-bar="true">
+    <ion-content padding="true" class="has-header" >
+        <form id="login-form2" class="list ">
+            <ion-list id="login-list2" class=" ">
+                <label class="item item-input " id="login-input2">
+                    <span class="input-label">Email</span>
+                    <input type="text" placeholder="User Name" ng-model="userLoginInfo.username" />
+                </label>
+                <label class="item item-input " id="login-input3">
+                    <span class="input-label">Password</span>
+                    <input type="password" placeholder="Password" ng-model="userLoginInfo.password"  />
+                </label>
+            </ion-list>
+            <div class="spacer" style="height: 40px;"></div>
+            <button id="login-button1" class=" button button-stable  button-block" ng-click="login(userName,password)">Log in</button>
+            <a href="#/app/signup"  class=" button button-positive  button-block button-clear ">Or create an account</a>
+        </form>
+        <button id="login-button3" class=" button button-positive  button-block " ng-click="facebookSignIn()">Facebook</button>
+        <button id="login-button4" class=" button button-positive  button-block " ng-click="googleSignIn()">Google+</button>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,47 @@
+<ion-view title="Geo Info Details" id="page7" class=" ">
+    <ion-content padding="true" class="has-header">
+
+      <div class="list ta-left">
+        <label class="item item-input item-stacked-label ">
+          <span class="input-label">Address 1</span>
+          <input type="text" placeholder="Address 1" ng-model="googleCodingDetails.address1" {{mediaDetails.address1}}>
+        </label>
+        <label class="item item-input item-floating-label">
+          <span class="input-label">Address 2</span>
+          <input type="text" placeholder="Address 2" ng-model="googleCodingDetails.address2" {{mediaDetails.address2}}>
+        </label>
+        <label class="item item-input item-floating-label">
+          <span class="input-label">City</span>
+          <input type="text" placeholder="City" ng-model="googleCodingDetails.city" {{mediaDetails.city}}>
+        </label>
+        <label class="item item-input item-floating-label">
+          <span class="input-label">ZIP</span>
+          <input type="text" placeholder="ZIP" ng-model="googleCodingDetails.zip" {{mediaDetails.zip}}>
+        </label>
+        <label class="item item-input item-floating-label">
+          <span class="input-label">Latitude</span>
+          <input type="text" placeholder="Latitude" ng-model="googleCodingDetails.latitude" {{mediaDetails.latitude}}>
+        </label>
+        <label class="item item-input item-floating-label">
+          <span class="input-label">Longitude</span>
+          <input type="text" placeholder="Longitude" ng-model="googleCodingDetails.longitude" {{mediaDetails.longitude}}>
+        </label>
+      </div>
+
+      <button id="photoDetails-button6" class=" button button-positive  button-block " ng-click="getLatLong(googleCodingDetails)">Get Lat/Long</button>
+
+      <div np-show="ShowlatlongInfo==true" class="nowrap">
+        Select Lat/Long
+      <ion-list>
+        <ion-radio ng-repeat="item in locationList"
+                   ng-value="item.value"
+                   ng-model="data.clientSide">
+          {{ item.text }}
+        </ion-radio>
+      </ion-list>
+        <button id="photoDetails-button6" class=" button button-positive  button-block " ng-click="saveLocationInfo(googleCodingDetails)">Save Address</button>
+        <button id="photoDetails-button6" class=" button button-positive  button-block " ng-click="goBack();">Cancel</button>
+      </div>
+
+    </ion-content>
+</ion-view>
